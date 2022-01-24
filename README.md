@@ -1,5 +1,5 @@
+# Zero & One
 
-<h1 align="center"> Zero & One  </h1> 
 
 <img width="800" alt="Picturjje1" src="https://github.com/Afn4nz/Zero-One/blob/main/zero(1).png" style="margin-left: 700px;">
 
