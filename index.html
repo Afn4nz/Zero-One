@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="zero.png"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <link rel="stylesheet" href="main.css">
+  <title>Zero&One</title>
+</head>
+
+
+<body>
+
+  <br>
+
+  <!--Header of the page-->
+
+  <!-- first container-->
+  <div class="ui raised very padded text center aligned container segment">
+    <!--logo-->
+    <img src="one.png" width="190"/>
+    <!--title-->
+    <h2 class="titleFont">Number Converter</h2>
+  </div>
+
+
+
+
+  <!--Body of the page-->
+
+  <!--second container-->
+  <div class="ui raised very padded text container segment" id="d2b_container">
+    <!--subtitle-->
+    <h2 class="subFont">Decimal To Binary</h2>
+    <!--instractions -->
+    <p class="subFont">Number must not exceed 10 digits.</p>
+    <!--input field-->
+    <div class="ui input">
+      <input type="text" placeholder="Enter an integer number" id="d2b">
+    </div>
+
+    <br>
+    <br>
+
+    <!--convert button-->
+    <button class="ui labeled icon button" id="d2bb">
+      <i class="calculator icon"></i>
+      Get Binary
+    </button>
+
+    <!--third container(result)-->
+    <div id="d2b_result" class="result ui raised container segment" ></div>
+
+  </div>
+
+
+  
+   <!--Conect JS code-->
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
